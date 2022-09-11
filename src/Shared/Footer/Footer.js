@@ -3,7 +3,7 @@ import logo from '../../Assets/images/logo.png';
 const Footer = () => {
     return (
         <div>
-            <footer class="footer p-10 bg-gray-300 text-base-content">
+            <footer class="footer p-10 bg-gray-200 text-base-content">
                 <div>
                     <span class="footer-title">Services</span>
                     <a class="link link-hover">Branding</a>
@@ -25,7 +25,7 @@ const Footer = () => {
                     <a class="link link-hover">Cookie policy</a>
                 </div>
             </footer>
-            <footer class="footer px-10 py-4 border-t bg-gray-300 text-base-content border-base-300">
+            <footer class="footer px-10 py-4 border-t bg-gray-200 text-base-content border-base-300">
                 <div class="items-center grid-flow-col">
                     <img className="h-[50px]" src={logo} alt="logo" />
                     <p>Glorious Digital Techlonoloy Lmt.<br />Providing reliable tech since 2020</p>
@@ -38,17 +38,9 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
-            <footer class=" px-10 py-4 border-t bg-gray-300 text-base-content border-base-300">
+            <footer class=" px-10 py-4 border-t bg-gray-200 text-base-content border-base-300">
                 <p className='text-center'> Copyright,2022,Jannat Nury, All rights reserved</p>
             </footer>
-
-            {/* <span id="scroll-top">
-                <a class="scrollup" style="display: inline;">
-                    <i class="fa-chevron-up">
-                        ::before
-                    </i>
-                </a>
-            </span> */}
         </div>
     );
 };

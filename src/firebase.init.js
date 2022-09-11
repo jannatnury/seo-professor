@@ -1,18 +1,16 @@
-import { initializeApp } from "firebase/app";
-import {getAuth} from "firebase/auth";
 
+import { initializeApp } from "firebase/app";
+
+
+// Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBd5cGuOG0fRNiy1p9jPN3teLqhVewMqyw",
-  authDomain: "seo-professor-7c703.firebaseapp.com",
-  projectId: "seo-professor-7c703",
-  storageBucket: "seo-professor-7c703.appspot.com",
-  messagingSenderId: "208057498024",
-  appId: "1:208057498024:web:0bb64f9ae360024097c59d"
+  apiKey: "AIzaSyCvnf20KEjn59FMdSf0fsRlatP2p2Jj7fw",
+  authDomain: "seo-professor-78135.firebaseapp.com",
+  projectId: "seo-professor-78135",
+  storageBucket: "seo-professor-78135.appspot.com",
+  messagingSenderId: "552811575367",
+  appId: "1:552811575367:web:184e7404c994440c949962"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-
-const auth = getAuth(app);
-
-export default auth;
